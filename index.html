@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>EBAC Motors</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="main.css">
+ </head>
+<body>
+   <header>
+      <div class="container container-flex">
+         <h1>Formulário Exercício M10</h1>
+         <div class="menu-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>   
+         </div>
+      </div>
+      <nav>
+         <div class="container">
+            <ul>
+               <li>
+                  <a href="#">Sobre</a>
+               </li>
+               <li>
+                  <a href="#">Contato</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <section id="sobreExercício">
+      <div class="container">
+         <div>
+            <h2>Exercício Módulo 10</h2>
+            <p>
+               Criar um formulário, contendo campos: Nome, Endereço, CEP, CPF, e-mail. Campos que cabe utilização de máscara, devem ter máscara.
+            </p>
+            <br>
+            <p>
+               Deixar campos obrigatórios, obrigatórios, submetendo o formulário apenas após o preenchimento correto dos mesmos.
+            </p>
+         </div>
+      </div>
+   </section>
+   <section id="contato">
+      <div class="container">
+         <h2>Entre em contato</h2>
+         <form>
+            <div class="form-campo">
+               <label for="nome">Nome:</label>
+               <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-campo">               
+               <label for="CPF">CPF:</label>
+               <input type="text" id="CPF" name="CPF">
+            </div>            
+            <div class="form-campo">               
+               <label for="telefone">Telefone:</label>
+               <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-campo">
+               <label for="email">E-mail:</label>
+               <input type="email" id="email" name="email">
+            </div>
+            <div class="form-campo">
+               <label for="veiculo-interesse">Endereço:</label>
+               <input class="form-end" type="text" id="logradouro" name="logradouro" placeholder="Logradouro">
+               <input class="form-end" type="text" id="numero" name="numero" placeholder="número">
+               <input class="form-end" type="text" id="complemento" name="complemento" placeholder="Complemento">
+               <input class="form-end" type="text" id="CEP" name="CEP" placeholder="CEP">
+               <input class="form-end" type="text" id="bairro" name="bairro" placeholder="Bairro">
+               <input class="form-end" type="text" id="CidEst" name="CidEst" placeholder="Cidade / Estado">
+            </div>
+            <button type="submit">Enviar</button>
+         </form>
+      </div>
+   </section>
+   <footer>
+      <div class="container container-flex">
+         <p>
+            2023 &copy; Henrique Schneider - Todos os direitos reservados
+         </p>
+         <ul class="container-flex">
+            <li>
+               <a href="#">
+                  <img src="./imagens/facebook.png" alt="Facebook">
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <img src="./imagens/instagram.png" alt="Instagram">
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <img src="./imagens/youtube.png" alt="YouTube">
+               </a>
+            </li>
+         </ul>
+      </div>
+   </footer>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="jquery.mask.min.js"></script>
+   <script src="jquery.validate.min.js"></script>
+   <script src="messages_pt_BR.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>
