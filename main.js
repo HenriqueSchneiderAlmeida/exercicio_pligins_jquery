@@ -65,10 +65,8 @@ $(document).ready(function() {
           }
        }
     }) 
-    $('.lista-veiculos button').click(function() {
+    $('.irContato a').click(function() {
         const destino = $('#contato');
-        const nomeVeiculo = $(this).parent().find('h3').text();
-        $('#veiculo').val(nomeVeiculo);
         
         $('html').animate({
             scrollTop: destino.offset().top
